@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Files and folders in currently open Folder</h1>
+<table>
+    <tbody>
+    {% for key, value in files.items() %}
+        <tr>
+            <td><a href="/{{ value }}/{{ key }}">{{ key }}</a></td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+</body>
