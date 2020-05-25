@@ -7,7 +7,7 @@ Requirements: Python 3.6
 2. Запуск приложения:
 > cd /path/to/saved/repository/yazyki_lab1
 >
-> python server.py /path/to/your/directory
+> python server.py /path/to/your/test/directory
 ***
 
 Методы, которые можно проверить через браузер:
